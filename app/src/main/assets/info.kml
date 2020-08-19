@@ -1,0 +1,5193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>地块信息.kml</name>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin90</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin900">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin40">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin120">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin70">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin300">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin90">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin80">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin70">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin400">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin90">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin90">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin900</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin61">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>江苏博能</name>
+		<description>江苏博能224亩</description>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.208294698697,33.92577681506981,0 118.2099814801664,33.92634420263007,0 118.2107512382563,33.92649350493958,0 118.2117976011615,33.93119259077457,0 118.208009400052,33.93098637693442,0 118.208294698697,33.92577681506981,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金发纺织</name>
+		<visibility>0</visibility>
+		<description>金发纺织115亩</description>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2077565256117,33.93137234888645,0 118.2118242618557,33.93160739610113,0 118.2122986755491,33.933430080159,0 118.2076114678392,33.93327186434328,0 118.2077565256117,33.93137234888645,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>约226.7亩有拆迁</description>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2075756382652,33.93351006628537,0 118.2123375434885,33.93362838575761,0 118.2130971699483,33.93616251065805,0 118.2074289869459,33.93632904440206,0 118.2075756382652,33.93351006628537,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>鼎峰重钢</name>
+		<visibility>0</visibility>
+		<description>鼎峰重钢222.3亩</description>
+		<styleUrl>#msn_ylw-pushpin00</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2074663537069,33.93646821134959,0 118.2131175469167,33.93629112980064,0 118.213985860671,33.93866512561931,0 118.2073299856639,33.93876551807214,0 118.2074663537069,33.93646821134959,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>195亩有拆迁</description>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2046341741737,33.92492072200858,0 118.2073268957897,33.9255729307507,0 118.2071247913951,33.93093613470676,0 118.2044442717458,33.9308214109379,0 118.2046341741737,33.92492072200858,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>九州车业</name>
+		<visibility>0</visibility>
+		<description>九州车业约109亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2045388593538,33.93119566462195,0 118.2071116881934,33.93138728275953,0 118.206943234616,33.93424675505639,0 118.2043973806699,33.93410082535463,0 118.2045388593538,33.93119566462195,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>三石包装</name>
+		<visibility>0</visibility>
+		<description>三石包装33.62亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2044101967535,33.93420982614386,0 118.2068966582273,33.93435855870381,0 118.2068352830479,33.935315003397,0 118.2043615892001,33.93517556160573,0 118.2044101967535,33.93420982614386,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>艾华美陈</name>
+		<visibility>0</visibility>
+		<description>艾华美陈约135亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.204332724326,33.93535638606374,0 118.2067902328297,33.93544933414175,0 118.2066224140713,33.9389169024116,0 118.2040957505023,33.93893601356925,0 118.204332724326,33.93535638606374,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>西城大厦</name>
+		<visibility>0</visibility>
+		<description>西城大厦50.181亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.19884225243,33.92113905593413,0 118.2003928039185,33.92234665169328,0 118.1991143557317,33.92353595402979,0 118.1976933060594,33.92228960269979,0 118.19884225243,33.92113905593413,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>城投公司</name>
+		<visibility>0</visibility>
+		<description>城投公司约51.8亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1946079401696,33.9190214788241,0 118.196498894538,33.91973380704274,0 118.1959576817163,33.9213842137354,0 118.1946618494561,33.92098430204158,0 118.1946079401696,33.9190214788241,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>城投公司</name>
+		<visibility>0</visibility>
+		<description>城投公司约50亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1966080221456,33.91979201628551,0 118.1975669048573,33.92024830192606,0 118.1986350938648,33.92101268720914,0 118.1973893548069,33.92221159029164,0 118.1967292380193,33.92167467052467,0 118.1960516188992,33.92139229354785,0 118.1966080221456,33.91979201628551,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>四季青服装城</name>
+		<visibility>0</visibility>
+		<description>四季青服装城311亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1977520542056,33.92656742939511,0 118.1992950002028,33.92657902777591,0 118.2003127108505,33.92624942941157,0 118.2012192009708,33.92537765811151,0 118.2027290970356,33.92376527655441,0 118.2039081768462,33.92466991462248,0 118.2044624890251,33.92489079309987,0 118.2042762573202,33.92872375112827,0 118.2021365242505,33.92862283280277,0 118.2021383063868,33.92899667617169,0 118.1976452015185,33.92875229952632,0 118.1977520542056,33.92656742939511,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>激光产业园三期</name>
+		<visibility>0</visibility>
+		<description>激光产业园三期93.58亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1948689373871,33.92654596255117,0 118.1977343973139,33.92658345814943,0 118.1976289010583,33.92889278054829,0 118.1949086790892,33.92875237967741,0 118.1948689373871,33.92654596255117,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>敦宇机械</name>
+		<visibility>0</visibility>
+		<description>敦宇机械约66.8亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.194912033825,33.92876371233277,0 118.1976171804128,33.92889278004358,0 118.1976275932436,33.92881094545477,0 118.1977309637976,33.92882453403962,0 118.1976363505079,33.93061844831009,0 118.1949610195161,33.93041238280202,0 118.194912033825,33.92876371233277,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>汇丰混凝土</name>
+		<visibility>0</visibility>
+		<description>汇丰混凝土约38.7亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1977318656659,33.92876260377464,0 118.1991702825362,33.92884813205099,0 118.1990757898033,33.93072572580044,0 118.1976622897723,33.93062189197744,0 118.1977318656659,33.92876260377464,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>贝斯特建材</name>
+		<visibility>0</visibility>
+		<description>贝斯特建材约45亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1992055638709,33.92885369768279,0 118.2007878974323,33.92894412704212,0 118.2007059648719,33.93083568225131,0 118.1991237805921,33.93072572703968,0 118.1992055638709,33.92885369768279,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>彩虹广告</name>
+		<visibility>0</visibility>
+		<description>彩虹广告约37.3亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2008499306214,33.9289623888026,0 118.2021198603874,33.92902897049871,0 118.2020338805833,33.93090681322709,0 118.2007662775245,33.93081961363004,0 118.2008499306214,33.9289623888026,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>公安局标牌厂</name>
+		<visibility>0</visibility>
+		<description>公安局标牌厂18.78亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.20214356296,33.92949215792903,0 118.2030989524816,33.92953213821944,0 118.2030581249596,33.93090068933488,0 118.2020727158012,33.93083403907544,0 118.20214356296,33.92949215792903,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块占地</name>
+		<visibility>0</visibility>
+		<description>地块占地70.7亩未报批</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2031178820793,33.92949257566252,0 118.2021395330967,33.92946593892902,0 118.2021728493739,33.92866399734712,0 118.2042813940735,33.92875557595181,0 118.2041684788199,33.93090976547845,0 118.2031209955417,33.93087004098933,0 118.2031178820793,33.92949257566252,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>电子电气产业园</name>
+		<visibility>0</visibility>
+		<description>电子电气产业园168.14亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1950296142612,33.93076814949338,0 118.1979058649991,33.93097220306274,0 118.1977309310929,33.93481481503394,0 118.195213026064,33.93472063463697,0 118.1950296142612,33.93076814949338,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>淮海报废汽车</name>
+		<visibility>0</visibility>
+		<description>淮海报废汽车</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1978350725569,33.93261608435498,0 118.1990806326689,33.93268460122776,0 118.199006568417,33.93491042644925,0 118.1977317724857,33.93485694624919,0 118.1978350725569,33.93261608435498,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>隆鑫科技71亩</name>
+		<visibility>0</visibility>
+		<description>隆鑫科技71亩（2015）24054号</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.19793012562,33.93094397630622,0 118.2006947580687,33.93111610353127,0 118.2005383596101,33.93276963171626,0 118.1978585040021,33.93258599099296,0 118.19793012562,33.93094397630622,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>润丰波纤</name>
+		<visibility>0</visibility>
+		<description>润丰波纤33.62亩</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2007447238127,33.93105317401063,0 118.2020408216616,33.93109954766104,0 118.2019326404062,33.93281515231677,0 118.2005865631686,33.93278806577188,0 118.2007447238127,33.93105317401063,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>标准厂房集中区</name>
+		<visibility>0</visibility>
+		<description>标准厂房集中区</description>
+		<styleUrl>#msn_ylw-pushpin30</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2020913668709,33.93108350341034,0 118.2040335190536,33.93117160102492,0 118.2041672249188,33.93125935878688,0 118.2040432033912,33.93298722794679,0 118.2019944317316,33.93286185102306,0 118.2020913668709,33.93108350341034,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>约124亩有拆迁</description>
+		<styleUrl>#msn_ylw-pushpin8</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1991288322242,33.93272364002475,0 118.202733623426,33.93295510911048,0 118.2027432702413,33.93507231309747,0 118.1990470400325,33.93491208375476,0 118.1991288322242,33.93272364002475,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>日报社</name>
+		<visibility>0</visibility>
+		<description>日报社</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2028053892268,33.93298496180569,0 118.204044612977,33.93304428411842,0 118.2040281425999,33.93361674109147,0 118.2027973758234,33.9335745586582,0 118.2028053892268,33.93298496180569,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>项王照明</name>
+		<visibility>0</visibility>
+		<description>项王照明</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2027987364258,33.93358470188682,0 118.2040023147103,33.93363727232583,0 118.2039905975031,33.934161258111,0 118.2027876477362,33.93411274584241,0 118.2027987364258,33.93358470188682,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>佳诚电器</name>
+		<visibility>0</visibility>
+		<description>佳诚电器科华混凝土</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2028033061713,33.93415525929563,0 118.203977853908,33.93420367092754,0 118.2039538074003,33.93513344424132,0 118.2027948771999,33.93506071758145,0 118.2028033061713,33.93415525929563,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华正管业</name>
+		<visibility>0</visibility>
+		<description>华正管业59.24亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1981267062442,33.93508150551127,0 118.1981540872585,33.93535971286976,0 118.1980542035313,33.93535228593201,0 118.197976949984,33.93678771408401,0 118.1967505979996,33.93673340084688,0 118.196749234096,33.93647732278961,0 118.1953808696403,33.93645958392334,0 118.1954696541836,33.93498175499358,0 118.1981267062442,33.93508150551127,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>飞虎毛毯厂</name>
+		<visibility>0</visibility>
+		<description>飞虎毛毯厂约63.6亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2004291399889,33.9351638730874,0 118.2003715305778,33.93621130866143,0 118.2005163640251,33.93621225011689,0 118.2005392390406,33.93659620437433,0 118.2005481915818,33.93694350110625,0 118.1982283104014,33.93693479173025,0 118.1982265251347,33.93509907684397,0 118.2004291399889,33.9351638730874,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>佳佳钢化玻璃</name>
+		<visibility>0</visibility>
+		<description>佳佳钢化玻璃9.37亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2004472969898,33.93515867106176,0 118.2010090151313,33.93518469280913,0 118.2009779375176,33.93622534710624,0 118.200371444049,33.93620528175669,0 118.2004472969898,33.93515867106176,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华奎化工</name>
+		<visibility>0</visibility>
+		<description>华奎化工9.24亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2010430533069,33.93514792647358,0 118.2016732719575,33.93518368755283,0 118.2016338016212,33.93625697021836,0 118.2010112416007,33.93623143052361,0 118.2010430533069,33.93514792647358,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金开机械</name>
+		<visibility>0</visibility>
+		<description>金开机械9.64亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2017037586808,33.93518368669215,0 118.2022253720168,33.93520466688563,0 118.2021949744119,33.93626114909508,0 118.2016846288751,33.93623853857761,0 118.2017037586808,33.93518368669215,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>农用田</name>
+		<visibility>0</visibility>
+		<description>农用田</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2005632959016,33.93624277217406,0 118.2021976525803,33.93627961519904,0 118.2022197160172,33.93652428027316,0 118.2010222973866,33.93652975327457,0 118.2010222098576,33.93664434315483,0 118.200581053191,33.93664112379744,0 118.2005632959016,33.93624277217406,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>永和钢球</name>
+		<visibility>0</visibility>
+		<description>永和钢球</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2022346043181,33.93570561348448,0 118.2038884652512,33.9358102721984,0 118.2038757709344,33.93637770844998,0 118.202206630465,33.93634152261527,0 118.2022346043181,33.93570561348448,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金元包装</name>
+		<visibility>0</visibility>
+		<description>金元包装</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.202249800722,33.93520466570292,0 118.2029569942117,33.93525282461949,0 118.2029689730973,33.93573755645335,0 118.2022328973774,33.93569433952093,0 118.202249800722,33.93520466570292,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金辉机械</name>
+		<visibility>0</visibility>
+		<description>金辉机械</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2029965247067,33.93523701846498,0 118.2038894204633,33.93525309606616,0 118.2038693594262,33.9357872548658,0 118.2030134426558,33.93573755443516,0 118.2029965247067,33.93523701846498,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金鑫建材</name>
+		<visibility>0</visibility>
+		<description>金鑫建材约95亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1952693972486,33.9368180883292,0 118.1981839102474,33.93690701989858,0 118.1982199655762,33.93913269686897,0 118.1953623207147,33.9391073325119,0 118.1952693972486,33.9368180883292,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>神龙家纺</name>
+		<visibility>0</visibility>
+		<description>神龙家纺约71.4亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1982329277566,33.93698819229942,0 118.2005189751121,33.93698374293806,0 118.200577141587,33.93905390845833,0 118.1982835120103,33.93912384448045,0 118.1982329277566,33.93698819229942,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>城投公司</name>
+		<visibility>0</visibility>
+		<description>城投公司标准化厂房147.82亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2005904208932,33.93667377125316,0 118.2010491391238,33.93667071969467,0 118.2010596371062,33.93656341311077,0 118.2022535426901,33.936576999977,0 118.2022565319228,33.93636419650857,0 118.2038644679976,33.93641854942728,0 118.2037381428388,33.93893809409745,0 118.2006578975732,33.93904125528911,0 118.2005904208932,33.93667377125316,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>铂金美寓</name>
+		<visibility>0</visibility>
+		<description>铂金美寓约94.59亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.189288283332,33.91959868155922,0 118.1943766737932,33.92107289282274,0 118.1944146419999,33.92240838764186,0 118.188809063153,33.92130595712986,0 118.189288283332,33.91959868155922,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>50.1亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1886901977925,33.92171984979117,0 118.1904707615561,33.92202040907115,0 118.1903794977228,33.92383084818056,0 118.1885766872771,33.92366273844845,0 118.1883316080852,33.92348922713306,0 118.1886901977925,33.92171984979117,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>纬二路</name>
+		<visibility>0</visibility>
+		<description>标准厂房31.6亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1905176087614,33.92205150455383,0 118.1916731573936,33.92227204554816,0 118.1915082216596,33.92397483217106,0 118.1904202091892,33.923868230764,0 118.1905176087614,33.92205150455383,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>昌泽电子</name>
+		<visibility>0</visibility>
+		<description>昌泽电子约60亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1917176641515,33.92229149825797,0 118.1943496034928,33.92271049834777,0 118.1944891829199,33.92283494123639,0 118.194515534146,33.92413017023936,0 118.194259281704,33.9242698979828,0 118.1915549863128,33.92396694018433,0 118.1917176641515,33.92229149825797,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>泰格电子</name>
+		<visibility>0</visibility>
+		<description>泰格电子69.3亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1884711519686,33.92386943074721,0 118.1908218286628,33.92410404676082,0 118.1908203717012,33.92587982312988,0 118.1882884181664,33.92584568151999,0 118.1884711519686,33.92386943074721,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>领翰激光</name>
+		<visibility>0</visibility>
+		<description>领翰激光</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1908368879614,33.92413076055905,0 118.192812369026,33.92431393764771,0 118.1927859074597,33.92507555562562,0 118.1908274806063,33.92505632321714,0 118.1908368879614,33.92413076055905,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>卡米特</name>
+		<visibility>0</visibility>
+		<description>卡米特约84.3亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1908352767617,33.92506379220876,0 118.1928242491679,33.92513513475387,0 118.1928272242694,33.92559085864528,0 118.1938198537716,33.9256000499607,0 118.1938224712831,33.92543787021119,0 118.1941329409885,33.92543024229229,0 118.1941684357991,33.92590071452334,0 118.1908281816129,33.92587166360507,0 118.1908352767617,33.92506379220876,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>卡米特激光</name>
+		<visibility>0</visibility>
+		<description>卡米特激光21.485亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1928604103574,33.92434175349796,0 118.1941222910259,33.92445033540505,0 118.1941329409885,33.92543024229229,0 118.1938183905149,33.9254149256487,0 118.1938277192668,33.92560005062655,0 118.1928341419305,33.92558314241452,0 118.1928604103574,33.92434175349796,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>激光产业园</name>
+		<visibility>0</visibility>
+		<description>激光产业园二期71.4亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1882853634009,33.92645616029541,0 118.1911180741524,33.92647663182434,0 118.1911315156542,33.92821057418249,0 118.1882635227523,33.92823137168349,0 118.1882853634009,33.92645616029541,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>激光产业园</name>
+		<visibility>0</visibility>
+		<description>激光产业园约144亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1911849334758,33.92647243472016,0 118.1945528967853,33.92649450832439,0 118.1947096329754,33.92913829407853,0 118.1912427128272,33.92915439847974,0 118.1911849334758,33.92647243472016,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>可来比</name>
+		<visibility>0</visibility>
+		<description>可来比80亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1882643120353,33.92828796945746,0 118.1911078171584,33.92827499448528,0 118.191158494748,33.93022060030507,0 118.1883061737307,33.93000734209889,0 118.1882643120353,33.92828796945746,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华科创智</name>
+		<visibility>0</visibility>
+		<description>华科创智约58.6亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1911871951537,33.92923552137587,0 118.1947037629391,33.92921242308584,0 118.194760750415,33.93042145187162,0 118.1912373218463,33.93021340521241,0 118.1911871951537,33.92923552137587,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>杰龙晶瓷</name>
+		<visibility>0</visibility>
+		<description>杰龙晶瓷约273亩</description>
+		<styleUrl>#msn_ylw-pushpin21</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1904053360421,33.93047317862074,0 118.194648171006,33.93070176109129,0 118.1947470218264,33.93077898316482,0 118.1949174076571,33.93460406353289,0 118.1948108219609,33.93472646517159,0 118.1900718710847,33.934561036159,0 118.1904053360421,33.93047317862074,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>国有未出让</name>
+		<visibility>0</visibility>
+		<description>国有未出让30亩</description>
+		<styleUrl>#msn_ylw-pushpin70</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1883681498695,33.9332863862472,0 118.1901552684334,33.93338844402049,0 118.190063058804,33.93455160971908,0 118.1884180210282,33.93440879383951,0 118.1883681498695,33.9332863862472,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>国有未出让</name>
+		<visibility>0</visibility>
+		<description>国有未出让35.9亩</description>
+		<styleUrl>#msn_ylw-pushpin70</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1883142221956,33.9320998142038,0 118.1902451534873,33.93221981953344,0 118.1901548760679,33.93339696596151,0 118.1883700852904,33.93326934730553,0 118.1883142221956,33.9320998142038,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>国有未出让宇秀</name>
+		<visibility>0</visibility>
+		<description>国有未出让宇秀 51.1亩</description>
+		<styleUrl>#msn_ylw-pushpin51</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1882424091859,33.93035800512412,0 118.1903569377076,33.9304871287245,0 118.1902465500024,33.93218859500077,0 118.1883017959581,33.93206111761112,0 118.1882424091859,33.93035800512412,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>雅斯特</name>
+		<visibility>0</visibility>
+		<description>雅斯特约50亩</description>
+		<styleUrl>#msn_ylw-pushpin12</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1884320241106,33.93487264503659,0 118.1887965358135,33.93485849408611,0 118.1891388259137,33.93467237768309,0 118.1894723560728,33.93469139333632,0 118.1904297091375,33.93475636932502,0 118.1905089417458,33.93639123159029,0 118.1884546005264,33.93644990682393,0 118.1884320241106,33.93487264503659,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>安生塑料</name>
+		<visibility>0</visibility>
+		<description>安生塑料约59亩</description>
+		<styleUrl>#msn_ylw-pushpin12</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1905087139962,33.93476888341849,0 118.1929662117203,33.93496489671024,0 118.192993081755,33.93631525007741,0 118.1905598580904,33.93639084767025,0 118.1905087139962,33.93476888341849,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>元大科技</name>
+		<visibility>0</visibility>
+		<description>元大科技约192亩</description>
+		<styleUrl>#msn_ylw-pushpin12</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1884610244277,33.93649179628337,0 118.19301070203,33.93635545529906,0 118.1930973112964,33.93922729546991,0 118.1886052135137,33.93933104278629,0 118.1885068196791,33.93919768898415,0 118.1884610244277,33.93649179628337,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>宏运环保</name>
+		<visibility>0</visibility>
+		<description>宏运环保约67亩</description>
+		<styleUrl>#msn_ylw-pushpin12</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.193081970527,33.93682703363365,0 118.1950176324435,33.93679946992675,0 118.1951521136784,33.93917521503887,0 118.193164908593,33.93921598348992,0 118.193081970527,33.93682703363365,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>城投公司</name>
+		<visibility>0</visibility>
+		<description>城投公司索富达二期31.12亩</description>
+		<styleUrl>#msn_ylw-pushpin11</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1930559327307,33.93498205043179,0 118.193983447025,33.93499542577346,0 118.1940331275618,33.93677868940738,0 118.1930653143275,33.93679936759994,0 118.1930559327307,33.93498205043179,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>索富达</name>
+		<visibility>0</visibility>
+		<description>索富达25.5亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1940252253506,33.93499556348593,0 118.1948859017764,33.93499586233018,0 118.1950092556066,33.93675796008128,0 118.1940915277173,33.93676484672459,0 118.1940252253506,33.93499556348593,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>7</name>
+		<visibility>0</visibility>
+		<description>7 约118亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1845842570693,33.92048515070319,0 118.1884678349668,33.92123072615225,0 118.1880029803013,33.92364235882135,0 118.1840219017438,33.9229426857691,0 118.1845842570693,33.92048515070319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>6</name>
+		<visibility>0</visibility>
+		<description>6约133亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1840042557448,33.92300723241569,0 118.1879784877403,33.92369738495673,0 118.1877303954731,33.92591483452351,0 118.1843170082966,33.92596402776811,0 118.1833405035632,33.92575652370425,0 118.1840042557448,33.92300723241569,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>5</name>
+		<visibility>0</visibility>
+		<description>5 约74亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1822257542459,33.92004497520659,0 118.1845003021738,33.92047262561814,0 118.1839712583261,33.92291452155575,0 118.1816554846997,33.92246213660901,0 118.1822257542459,33.92004497520659,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>4</name>
+		<visibility>0</visibility>
+		<description>4 约80亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1816408374171,33.92252301788236,0 118.1839322974666,33.9230022219524,0 118.1832705596033,33.92576902286751,0 118.1810369421251,33.9251664715014,0 118.1816408374171,33.92252301788236,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>3</name>
+		<visibility>0</visibility>
+		<description>3 约98亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.17853816978,33.92172399996487,0 118.179011415557,33.92064647340913,0 118.1796495320396,33.91957629600577,0 118.1821056353118,33.92004385098598,0 118.1815573370677,33.92244925217193,0 118.17853816978,33.92172399996487,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>2</name>
+		<visibility>0</visibility>
+		<description>2 约90亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1785179068635,33.92180743699716,0 118.181514315362,33.92252210899733,0 118.1809489501519,33.9251255800029,0 118.1778907478173,33.92432638368551,0 118.1778415500848,33.92422027878587,0 118.1785179068635,33.92180743699716,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>1</name>
+		<visibility>0</visibility>
+		<description>1 约236亩</description>
+		<styleUrl>#msn_ylw-pushpin01</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1729839199685,33.91837732270378,0 118.1793846717883,33.91953494511883,0 118.1787194438092,33.92087692991741,0 118.1781357896257,33.92243925553417,0 118.1724367396446,33.92151721643504,0 118.1729839199685,33.91837732270378,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>62.9亩 国有建设用地未出让</description>
+		<styleUrl>#msn_ylw-pushpin13</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1786806651195,33.92080560566313,0 118.1766339634835,33.92032682534106,0 118.1772235757295,33.9191323158028,0 118.1793307746699,33.91954561286163,0 118.1786806651195,33.92080560566313,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>智能电网标准化厂房</name>
+		<visibility>0</visibility>
+		<description>智能电网标准化厂房168亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1723850890993,33.92163885061398,0 118.1780345982792,33.92255996879727,0 118.177608311836,33.9242632016423,0 118.1719590391881,33.92394682776301,0 118.1723850890993,33.92163885061398,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>巨力特</name>
+		<visibility>0</visibility>
+		<description>巨力特约156亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1876798538631,33.9264340689126,0 118.1877728282682,33.93004928620895,0 118.1843194868052,33.92985379477669,0 118.1847746252489,33.9263474861742,0 118.1876798538631,33.9264340689126,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>水能项目</name>
+		<visibility>0</visibility>
+		<description>水能项目19亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1832405014051,33.9262743560468,0 118.1847746252489,33.9263474861742,0 118.1846339462387,33.92726566119623,0 118.1830288041234,33.92718253791094,0 118.1832405014051,33.9262743560468,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>凯喜姆</name>
+		<visibility>0</visibility>
+		<description>凯喜姆21亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1830258146097,33.92719774842725,0 118.1846227724488,33.92728848892165,0 118.1844726642311,33.9283980533209,0 118.1828421642169,33.92806057989954,0 118.1830258146097,33.92719774842725,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华夏星光</name>
+		<visibility>0</visibility>
+		<description>华夏星光40.425亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1828342637479,33.92811333896012,0 118.1844672471153,33.92845922557184,0 118.1842884907243,33.9298334040497,0 118.1824646613946,33.92975183142633,0 118.1828342637479,33.92811333896012,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>艾尼尔</name>
+		<visibility>0</visibility>
+		<description>艾尼尔77.91亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1855031902289,33.93020176183818,0 118.1877886785743,33.93037344127621,0 118.1878467356835,33.93312815558968,0 118.1856216080038,33.93298282324931,0 118.1855031902289,33.93020176183818,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>艾尼尔二期</name>
+		<visibility>0</visibility>
+		<description>艾尼尔二期约45.21亩</description>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option enabled="0" name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>118.1874665557204</longitude>
+			<latitude>33.93622993275682</latitude>
+			<altitude>0</altitude>
+			<heading>-0.4392785365074413</heading>
+			<tilt>0</tilt>
+			<range>2644.40298832345</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1856279556386,33.93302159353316,0 118.187856546157,33.93316720283247,0 118.1878879814061,33.93445342083699,0 118.1856578496958,33.93433536237249,0 118.1856279556386,33.93302159353316,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>110亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1823734374561,33.92996490997711,0 118.1854519923607,33.93019502532717,0 118.1855511236809,33.93214764214452,0 118.1819195202812,33.93187950312884,0 118.1823734374561,33.92996490997711,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>113.98亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1819176354506,33.93192464848728,0 118.1855464881408,33.93220176768084,0 118.1855992840502,33.93435730413521,0 118.1813628333007,33.93420404062388,0 118.1819176354506,33.93192464848728,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>兄弟林业</name>
+		<visibility>0</visibility>
+		<description>兄弟林业200亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1816874893381,33.93711729521299,0 118.1880315728162,33.93699122389398,0 118.1881110190398,33.93932609410636,0 118.1818427875207,33.93950156450771,0 118.1816874893381,33.93711729521299,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>118.5亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1817362004827,33.93441057803809,0 118.1846501095723,33.93452486257505,0 118.184631208639,33.93702209963113,0 118.1816732806358,33.93708251384326,0 118.1817362004827,33.93441057803809,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新越家居</name>
+		<visibility>0</visibility>
+		<description>新越家居40亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1817391974537,33.92604880686858,0 118.1830926362564,33.92631955743249,0 118.1827271179395,33.92799354673302,0 118.1812933825211,33.9277156152612,0 118.1817391974537,33.92604880686858,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新越家居二期</name>
+		<visibility>0</visibility>
+		<description>新越家居二期42.67亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1802696899572,33.92560259228537,0 118.181675213916,33.92602457896827,0 118.1812371573654,33.92767198783513,0 118.1804550930017,33.92748547400252,0 118.1804249794271,33.92764848151105,0 118.1798845571504,33.92752191661347,0 118.1802696899572,33.92560259228537,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>广特电气</name>
+		<visibility>0</visibility>
+		<description>广特电气80亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1776954907703,33.92487627783623,0 118.177812026298,33.92481064999094,0 118.180207939973,33.92557129127393,0 118.1798252614837,33.92753869613151,0 118.1773034622391,33.92696467985635,0 118.1776954907703,33.92487627783623,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>五星小区</name>
+		<visibility>0</visibility>
+		<description>五星小区约57亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.180501391886,33.92762918427836,0 118.1827066050942,33.92808535131041,0 118.1824342873241,33.92931343873639,0 118.18020179615,33.92890673878925,0 118.180501391886,33.92762918427836,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>五星居委会</name>
+		<description>五星居委会</description>
+		<styleUrl>#msn_ylw-pushpin9</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1801899344761,33.92894183902727,0 118.1824049666555,33.92935808300779,0 118.1823063908366,33.92975537072668,0 118.1800117478811,33.92960167104845,0 118.1801899344761,33.92894183902727,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>48.05亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1789784783936,33.9273923348858,0 118.1803848932367,33.92770906852899,0 118.179941149753,33.92961979638636,0 118.1785925295795,33.92953075256538,0 118.1789784783936,33.9273923348858,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>50.05亩</description>
+		<styleUrl>#msn_ylw-pushpin90</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1772962045807,33.92702613030082,0 118.1788867135441,33.92737599357195,0 118.1785358042879,33.92950362275552,0 118.1769553946757,33.92936691888022,0 118.1772962045807,33.92702613030082,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>天朔医疗</name>
+		<visibility>0</visibility>
+		<description>天朔医疗约251亩</description>
+		<styleUrl>#msn_ylw-pushpin61</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1768444167981,33.92965811782229,0 118.1823105689551,33.92996126621706,0 118.1816172254071,33.93293131206858,0 118.1762167807464,33.93275871503522,0 118.1768444167981,33.92965811782229,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>超越建材</name>
+		<visibility>0</visibility>
+		<description>超越建材 原长久光电 约50亩（有证34.6亩）</description>
+		<styleUrl>#msn_ylw-pushpin130</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1789719330976,33.93290014326136,0 118.181562189748,33.93299637358122,0 118.181305129498,33.93421634774106,0 118.1789385978052,33.93413846258856,0 118.1789719330976,33.93290014326136,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>洁润管业</name>
+		<visibility>0</visibility>
+		<description>洁润管业 约50亩（有证44.34亩）</description>
+		<styleUrl>#msn_ylw-pushpin100</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1761948953029,33.93282911206247,0 118.1788868183223,33.93289972795275,0 118.178870170773,33.93413802568754,0 118.1759236265408,33.93401945464497,0 118.1761948953029,33.93282911206247,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>约75.8亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1789495477836,33.93432684837529,0 118.1815204784189,33.93442563579315,0 118.18152014931,33.93631593451108,0 118.1789370476927,33.93632323218122,0 118.1789495477836,33.93432684837529,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>吴中</name>
+		<visibility>0</visibility>
+		<description>吴中 约40亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1789451109705,33.93636490162718,0 118.1815217453306,33.9363574215774,0 118.1815134211671,33.93737709159556,0 118.1789403644166,33.93738343306298,0 118.1789451109705,33.93636490162718,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>佳鑫纸业</name>
+		<visibility>0</visibility>
+		<description>佳鑫纸业</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1789352705625,33.937438068809,0 118.1815029061386,33.93744920374874,0 118.1816005306716,33.93950615636143,0 118.1789219822831,33.93949095896586,0 118.1789352705625,33.937438068809,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>亿茂滤材</name>
+		<visibility>0</visibility>
+		<description>亿茂滤材约87.57亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1756416786557,33.93499515471704,0 118.1758635826942,33.93422215275614,0 118.1789142465409,33.93432659582683,0 118.1789167034553,33.93608918585113,0 118.1754523867297,33.93604812159006,0 118.1756416786557,33.93499515471704,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>城投公司（原强伟光电）</name>
+		<visibility>0</visibility>
+		<description>城投公司（原强伟光电） 约76亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1754542545526,33.93612472758358,0 118.1788781806948,33.93614846542451,0 118.1788714528613,33.93758117283388,0 118.1753025556842,33.93755650430656,0 118.1754542545526,33.93612472758358,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>吴中标准厂房</name>
+		<visibility>0</visibility>
+		<description>吴中标准厂房约102亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.175396109958,33.93761565314228,0 118.1788503346978,33.93764120375924,0 118.1788575547392,33.93946560137519,0 118.1753986256968,33.93943382028198,0 118.175396109958,33.93761565314228,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>钛翼科技</name>
+		<visibility>0</visibility>
+		<description>钛翼科技上洋管业租用 约144亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1686731280828,33.93809580354574,0 118.168984337326,33.93687786147169,0 118.1716424026105,33.93696337105786,0 118.1714774386452,33.93964413383863,0 118.1702174786273,33.93952250469472,0 118.1686625495892,33.93897968934888,0 118.1686731280828,33.93809580354574,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>菲莱特</name>
+		<visibility>0</visibility>
+		<description>菲莱特约53.9亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1692678598203,33.93549302232879,0 118.1716506698214,33.93562671130601,0 118.1716085146382,33.93690255865024,0 118.168981446662,33.93683460578253,0 118.1692678598203,33.93549302232879,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>东之宝车业</name>
+		<visibility>0</visibility>
+		<description>东之宝车业约80亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1696211547519,33.93404201254852,0 118.1728029127947,33.93410559981146,0 118.1727461139576,33.93565806353298,0 118.1692721776176,33.93546141251119,0 118.1696211547519,33.93404201254852,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>迪迈机械</name>
+		<visibility>0</visibility>
+		<description>迪迈机械 约260亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1717503267014,33.93565976501724,0 118.1728372161643,33.93570667368358,0 118.1728918731696,33.93410617737805,0 118.1755259801837,33.93416645514636,0 118.1753206599907,33.93559661592646,0 118.1751132841562,33.93701687865473,0 118.1751343636852,33.93968549006016,0 118.171551233918,33.93962494288412,0 118.1717503267014,33.93565976501724,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>大德新能源</name>
+		<visibility>0</visibility>
+		<description>大德新能源约50亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1729943411538,33.93271786390345,0 118.175898504035,33.9328354706388,0 118.1756565650057,33.93399734927457,0 118.1729330883565,33.93393794594738,0 118.1729943411538,33.93271786390345,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>光大固废</name>
+		<visibility>0</visibility>
+		<description>光大固废 20亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1749557376334,33.93148276936591,0 118.176074439408,33.9315028907172,0 118.1758976155198,33.93278326934468,0 118.1749009913749,33.93275321066906,0 118.1749557376334,33.93148276936591,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>光大生物质供热</name>
+		<visibility>0</visibility>
+		<description>光大生物质供热 50亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1730813893312,33.93140806177873,0 118.1748450947762,33.93145838972441,0 118.1748054505364,33.9327354806948,0 118.1730168027488,33.93266722121198,0 118.1730813893312,33.93140806177873,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>工业废弃物热电供联</name>
+		<visibility>0</visibility>
+		<description>工业废弃物热电供联 约71亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1736835754743,33.92943060106056,0 118.1764610717419,33.92963940509315,0 118.17609008779,33.93135334810474,0 118.1735223175392,33.93128508020494,0 118.1736835754743,33.92943060106056,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>光大餐厨</name>
+		<visibility>0</visibility>
+		<description>光大餐厨 约20亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1728582950944,33.92938332114549,0 118.1736051380654,33.92943009361886,0 118.1734758626391,33.93129261929641,0 118.1727944259546,33.93128123801699,0 118.1728582950944,33.92938332114549,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>污水处理厂</name>
+		<visibility>0</visibility>
+		<description>污水处理厂 约80亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1709004062736,33.92920946837155,0 118.1728413790868,33.929376215098,0 118.1727586317981,33.93175800366725,0 118.1701285533308,33.93171214653086,0 118.1709004062736,33.92920946837155,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>光大环保</name>
+		<visibility>0</visibility>
+		<description>光大环保约98亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1701011354178,33.93176850616676,0 118.1729600373806,33.93182309709391,0 118.1728643749648,33.93392842921696,0 118.1696470524782,33.93382021331685,0 118.1701011354178,33.93176850616676,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>转让</name>
+		<visibility>0</visibility>
+		<description>转让给联宏博嘉金属 115.43亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1741292512776,33.92448628192459,0 118.1773942764258,33.92465890822193,0 118.1769435631676,33.92707927333866,0 118.1740138519585,33.9268950956411,0 118.1741292512776,33.92448628192459,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>鑫昌铝业</name>
+		<visibility>0</visibility>
+		<description>鑫昌铝业 78.984亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1739660472448,33.92690287865548,0 118.1736460998112,33.9268827837132,0 118.1736804234489,33.92643259479215,0 118.1716284530178,33.92614292104292,0 118.1715100995036,33.92612630839458,0 118.1717796600617,33.9244914992743,0 118.1719235606957,33.92439902103817,0 118.1740673048895,33.92448592742097,0 118.1739660472448,33.92690287865548,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>天向建材</name>
+		<visibility>0</visibility>
+		<description>天向建材 62.92亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1765719207797,33.92933046710172,0 118.1745407327456,33.92916691506363,0 118.1750909108148,33.92704472628194,0 118.1769055424435,33.9271653972153,0 118.1765719207797,33.92933046710172,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>东欣医疗</name>
+		<visibility>0</visibility>
+		<description>东欣医疗57.967亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1733897531676,33.92693005614273,0 118.175036222042,33.92702878567508,0 118.1744715554035,33.92918410360755,0 118.1730234873852,33.92909575847105,0 118.1733897531676,33.92693005614273,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>中消安全设备</name>
+		<visibility>0</visibility>
+		<description>中消安全设备30亩</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.171193689173,33.92782945311583,0 118.1731489550709,33.92800394828189,0 118.1729745862789,33.92909572283087,0 118.1709439461575,33.92893789749581,0 118.171193689173,33.92782945311583,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<description>35.1亩 赛帕汉</description>
+		<styleUrl>#msn_ylw-pushpin41</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.1714360249008,33.92677418576702,0 118.1733173039985,33.92692158639295,0 118.1731533634386,33.92795431122752,0 118.1712010720132,33.9277801766929,0 118.1714360249008,33.92677418576702,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>方盈工贸</name>
+		<description>方盈工贸34.1亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2958588881639,33.91749684450272,0 118.2959110862941,33.91710613032779,0 118.2960433767915,33.91591533714387,0 118.2977050911716,33.91611345758182,0 118.2976205163454,33.91726163046075,0 118.2963878633839,33.91716605475143,0 118.29632386548,33.91753134722359,0 118.2958588881639,33.91749684450272,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新型建材</name>
+		<visibility>0</visibility>
+		<description>新型建材34.1亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2977358866855,33.91610416722455,0 118.2988075342757,33.91622248610248,0 118.2985280134421,33.91741293842571,0 118.2976375212643,33.91730021911446,0 118.2977358866855,33.91610416722455,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块五</name>
+		<visibility>0</visibility>
+		<description>地块五121.1亩</description>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2977005258576,33.91728935612564,0 118.2963997602538,33.91717153030682,0 118.2964128682716,33.91719897787613,0 118.2963490690907,33.91756010842192,0 118.2953956470183,33.91749113828908,0 118.2957270828506,33.91727090536698,0 118.2958704895647,33.91709528804396,0 118.2960167960964,33.91591083980235,0 118.2988300770216,33.91620354878268,0 118.2982302702897,33.91889735876923,0 118.2973586149704,33.91881996900891,0 118.2977005258576,33.91728935612564,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>明珠公寓</name>
+		<visibility>0</visibility>
+		<description>明珠公寓109.8亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2925836201139,33.91845787552769,0 118.2952052869537,33.91869651213642,0 118.2969217907849,33.91885347552089,0 118.2972954064569,33.91886930278373,0 118.297672210939,33.91890086194136,0 118.2975017748254,33.91991193965583,0 118.2969534873588,33.92021987092738,0 118.2925030616555,33.91984125728928,0 118.2925836201139,33.91845787552769,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>耀华照明</name>
+		<visibility>0</visibility>
+		<description>耀华照明约33亩</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2908906514403,33.91547247985379,0 118.2925618216653,33.91564584950001,0 118.2924953324915,33.91678377786776,0 118.2907416155129,33.91662820677149,0 118.2908906514403,33.91547247985379,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>六角磨具</name>
+		<visibility>0</visibility>
+		<description>六角磨具约33亩</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2907581432107,33.91667028001658,0 118.2924741758167,33.91681960650409,0 118.2924399957341,33.9176355721559,0 118.2906836309684,33.9174771109054,0 118.2907581432107,33.91667028001658,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>神龙包装</name>
+		<visibility>0</visibility>
+		<description>神龙包装约20.3亩</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2896454983115,33.91542569486399,0 118.2897776184679,33.91534416287205,0 118.2908138313304,33.91545341725086,0 118.2906851842471,33.91660738202682,0 118.2895950765711,33.91653814859178,0 118.2896454983115,33.91542569486399,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>自行车钢球厂</name>
+		<visibility>0</visibility>
+		<description>自行车钢球厂13.6亩</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.289601750704,33.91657317603419,0 118.2906773614212,33.9166354306961,0 118.2906170382551,33.91746988647694,0 118.2895153553109,33.91733765756919,0 118.289601750704,33.91657317603419,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>和华包装</name>
+		<visibility>0</visibility>
+		<description>和华包装17.3亩</description>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2895052074936,33.91733540813397,0 118.2906200536286,33.91746834790234,0 118.2905058446087,33.91848153717564,0 118.2893965078659,33.91834674721691,0 118.2895052074936,33.91733540813397,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块四</name>
+		<visibility>0</visibility>
+		<description>地块四36.85亩</description>
+		<styleUrl>#msn_ylw-pushpin6</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2904896725139,33.91858273109659,0 118.2923553129417,33.91872908628002,0 118.2922644201819,33.91981434938602,0 118.2903204716223,33.91965360945788,0 118.2904896725139,33.91858273109659,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块三</name>
+		<visibility>0</visibility>
+		<description>地块三128.93亩</description>
+		<styleUrl>#msn_ylw-pushpin6</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2836577621824,33.91496493412819,0 118.2874942688817,33.91513591600637,0 118.2876264058538,33.9179306034019,0 118.2835837988794,33.91767150089959,0 118.2836577621824,33.91496493412819,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>未命名多边形</name>
+		<visibility>0</visibility>
+		<description>26.5亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2878204282783,33.91822394194053,0 118.2892338183761,33.91836305670731,0 118.2891542494891,33.91949207866993,0 118.2878789659688,33.91936872647383,0 118.2878204282783,33.91822394194053,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金鹏塑料制造</name>
+		<visibility>0</visibility>
+		<description>金鹏塑料制造5.6亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2886415170448,33.91564172102086,0 118.289493801481,33.91567246781452,0 118.2894683176062,33.91605350016435,0 118.2886272071127,33.91601408430539,0 118.2886415170448,33.91564172102086,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>科技宝高新建材</name>
+		<visibility>0</visibility>
+		<description>科技宝高新建材7亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2876783539361,33.9155878914855,0 118.2885770541548,33.91562019470168,0 118.288550593239,33.91614067117387,0 118.287699334933,33.91609197957882,0 118.2876783539361,33.9155878914855,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>力德建材10.3亩</name>
+		<visibility>0</visibility>
+		<description>力德建材10.3亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2886180867738,33.91606610858867,0 118.2894694174515,33.91611322760048,0 118.289381242208,33.91690640778123,0 118.2885956523165,33.91689572647452,0 118.2886180867738,33.91606610858867,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>枫林电器</name>
+		<visibility>0</visibility>
+		<description>枫林电器9.8亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.287696870204,33.91613685078148,0 118.2885498500114,33.91617820325619,0 118.2885272614623,33.9169032114912,0 118.2877150721771,33.91690717483904,0 118.287696870204,33.91613685078148,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>旭阳玻璃</name>
+		<visibility>0</visibility>
+		<description>旭阳玻璃13亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2877211768603,33.91695488992438,0 118.2893820066291,33.91696195129396,0 118.2893115891946,33.91756677325675,0 118.2877493642887,33.91742575268058,0 118.2877211768603,33.91695488992438,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>天润机械</name>
+		<visibility>0</visibility>
+		<description>天润机械15.4亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2877442513299,33.9174719576655,0 118.2893060901979,33.91762064557167,0 118.28926454849,33.91828483141765,0 118.2877921529732,33.91816037647387,0 118.2877442513299,33.9174719576655,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>西侧空地</name>
+		<visibility>0</visibility>
+		<description>西侧空地63.5亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2836920396654,33.9149799803076,0 118.2859248399238,33.91505184742184,0 118.2859659687898,33.91782862999545,0 118.2835965253343,33.91765579898674,0 118.2836920396654,33.9149799803076,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>路灯管理处</name>
+		<visibility>0</visibility>
+		<description>路灯管理处14.8亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2860158919422,33.91507367741183,0 118.287488923888,33.91515065267076,0 118.2875232459712,33.91556011920435,0 118.2860234968313,33.9154931457383,0 118.2860158919422,33.91507367741183,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>正大米业</name>
+		<visibility>0</visibility>
+		<description>正大米业14.8亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2860177700707,33.91555454370726,0 118.2875095352659,33.91562173258222,0 118.2875343529419,33.916422595086,0 118.2860292142212,33.91635416891496,0 118.2860177700707,33.91555454370726,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>三园调味有限公司</name>
+		<visibility>0</visibility>
+		<description>三园调味有限公司43.6亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2860359749239,33.91641842179927,0 118.2875444445853,33.91650127889503,0 118.2876224630108,33.9179232384541,0 118.2860580592371,33.91781294644854,0 118.2860359749239,33.91641842179927,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>东方明珠御景苑</name>
+		<visibility>0</visibility>
+		<description>东方明珠御景苑 42.8亩</description>
+		<styleUrl>#msn_ylw-pushpin2</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2835731373755,33.91773326105412,0 118.2876423290807,33.91799837993384,0 118.2877276431498,33.91996245058991,0 118.2835024705859,33.91954336911436,0 118.2835731373755,33.91773326105412,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>豫德嘉园</name>
+		<visibility>0</visibility>
+		<description>豫德嘉园50亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2953862834819,33.91753201132178,0 118.2964059293668,33.91759077302446,0 118.2964525060406,33.91720279179983,0 118.2976398359531,33.91730674517703,0 118.297306626703,33.91887738786098,0 118.2952258513311,33.91870006146625,0 118.2953862834819,33.91753201132178,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>豫德嘉园</name>
+		<visibility>0</visibility>
+		<description>豫德嘉园50亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2953862834819,33.91753201132178,0 118.2964059293668,33.91759077302446,0 118.2964525060406,33.91720279179983,0 118.2976398359531,33.91730674517703,0 118.297306626703,33.91887738786098,0 118.2952258513311,33.91870006146625,0 118.2953862834819,33.91753201132178,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>垃圾中转站</name>
+		<visibility>0</visibility>
+		<description>垃圾中转站 约13.9亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2997183733883,33.89311402109735,0 118.3004581062991,33.89369590636301,0 118.3000350148616,33.89425618143306,0 118.2988448050968,33.89358501222438,0 118.2993068279535,33.8931394618627,0 118.2997183733883,33.89311402109735,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>无名</name>
+		<visibility>0</visibility>
+		<description>无名 约45.8亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3000408243742,33.89425855926022,0 118.2985818157059,33.89604249332447,0 118.2968089350117,33.89522742911839,0 118.2988491721735,33.89359000351798,0 118.3000408243742,33.89425855926022,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>长顺纺织</name>
+		<visibility>0</visibility>
+		<description>长顺纺织 118.8亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3032266034848,33.89530229797826,0 118.3018170757179,33.89746275202206,0 118.2988670298535,33.89615710273095,0 118.3003398229793,33.89418576933085,0 118.3032266034848,33.89530229797826,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>德利恒棉业</name>
+		<visibility>0</visibility>
+		<description>德利恒棉业 219亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.303038618667,33.89523908971252,0 118.3040767848991,33.89343377794031,0 118.3065742928888,33.89420360483059,0 118.3060357485114,33.89617462689372,0 118.3054851957884,33.89908891724454,0 118.3018202548576,33.89746335596905,0 118.3032263880025,33.89531153686156,0 118.303038618667,33.89523908971252,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>特尔教具</name>
+		<visibility>0</visibility>
+		<description>特尔教具 约20.1亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2972318694704,33.8981747158973,0 118.2967016647416,33.89897943847348,0 118.2955145252746,33.8984464605068,0 118.2960154760261,33.89763880203722,0 118.2972318694704,33.8981747158973,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>世达实业</name>
+		<visibility>0</visibility>
+		<description>世达实业 约41.8亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2982347448807,33.89642649250026,0 118.2972294912678,33.89816798005401,0 118.2960171452071,33.89763568487529,0 118.2970857419375,33.89593948233633,0 118.2982347448807,33.89642649250026,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>瑞金玻璃</name>
+		<visibility>0</visibility>
+		<description>瑞金玻璃 23.4亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2967033704837,33.8989815415554,0 118.2960759460095,33.89994212226834,0 118.2948860134143,33.89944511982462,0 118.2955150116846,33.89844746120475,0 118.2967033704837,33.8989815415554,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>万隆信息</name>
+		<visibility>0</visibility>
+		<description>万隆信息 16.3亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.296074744967,33.89994584771973,0 118.2956724330684,33.90059869081512,0 118.2944903216409,33.90006323247494,0 118.2948873209057,33.89944102319861,0 118.296074744967,33.89994584771973,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>宏源工贸</name>
+		<visibility>0</visibility>
+		<description>宏源工贸 约14.3亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2956694911736,33.90060279793773,0 118.2950812348865,33.90154889472851,0 118.2943397924417,33.90122893966036,0 118.2949437938596,33.90026207481655,0 118.2956694911736,33.90060279793773,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>三友机械</name>
+		<visibility>0</visibility>
+		<description>三友机械 约14.9亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2949398364117,33.90025656760626,0 118.2943256529817,33.90121741122082,0 118.2934141121597,33.90082230040912,0 118.2942783954447,33.89995884230453,0 118.2949398364117,33.90025656760626,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>液化气</name>
+		<visibility>0</visibility>
+		<description>液化气 约16.1亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2934155838188,33.90081785342991,0 118.2922417429863,33.90026958587971,0 118.2932335337055,33.8993747776903,0 118.2942811440085,33.89995022264968,0 118.2934155838188,33.90081785342991,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>恒州特种玻纤</name>
+		<visibility>0</visibility>
+		<description>恒州特种玻纤 约41.9亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2976794430517,33.9006770066586,0 118.2966657659843,33.9022367469146,0 118.2953660221329,33.90165499942364,0 118.2963603854744,33.90007898030046,0 118.2976794430517,33.9006770066586,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>国华电子</name>
+		<visibility>0</visibility>
+		<description>国华电子 约17.6亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2978918430573,33.89954180055512,0 118.297286184522,33.90048503066788,0 118.2963748818532,33.90007569724048,0 118.2969795257755,33.89915360440386,0 118.2978918430573,33.89954180055512,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>百利实业</name>
+		<visibility>0</visibility>
+		<description>百利实业 约12亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2982906992792,33.89889754464599,0 118.2978918430573,33.89954180055512,0 118.2969829253723,33.8991486192124,0 118.2974263529776,33.89848532658552,0 118.2982906992792,33.89889754464599,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>耐斯制衣</name>
+		<visibility>0</visibility>
+		<description>耐斯制衣 约51.2亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2999834855162,33.89709725715484,0 118.299314764555,33.89807729154244,0 118.2992533409191,33.8980523183783,0 118.298825953295,33.89875071791654,0 118.2988876136534,33.89877503938617,0 118.2986932861023,33.89907826208188,0 118.2974109339109,33.89848419511508,0 118.2986261836787,33.89652312572836,0 118.2999834855162,33.89709725715484,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华安建筑材料D</name>
+		<visibility>0</visibility>
+		<description>华安建筑材料 8.2亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3024091654393,33.89821214170661,0 118.3020208902562,33.89880983013786,0 118.3013142927985,33.89850213119322,0 118.3016810034759,33.89790424669402,0 118.3024091654393,33.89821214170661,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>普朗克生物科技</name>
+		<visibility>0</visibility>
+		<description>普朗克生物科技 12.8亩</description>
+		<styleUrl>#msn_ylw-pushpin20</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3035034938766,33.89868528978256,0 118.3031242985766,33.89931002178806,0 118.3020208902562,33.89880983013786,0 118.3024070016605,33.89821528448248,0 118.3035034938766,33.89868528978256,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>华通医药</name>
+		<visibility>0</visibility>
+		<description>华通医药 11.8亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3024860193305,33.90030550602997,0 118.3018515202109,33.90123005274312,0 118.3013740706067,33.90107727294494,0 118.3018554032032,33.90007879895757,0 118.3024860193305,33.90030550602997,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>现代塑业</name>
+		<visibility>0</visibility>
+		<description>现代塑业 7.8亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.301855575054,33.90123194704884,0 118.3015297133324,33.9018482910067,0 118.3008606639816,33.90163371379338,0 118.3011170130664,33.9010046918124,0 118.301855575054,33.90123194704884,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>鑫桥钢结构</name>
+		<visibility>0</visibility>
+		<description>鑫桥钢结构 约5亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3015297133324,33.9018482910067,0 118.3012356505653,33.90225382028701,0 118.3006610822395,33.90201445487068,0 118.3008650420742,33.90162741888491,0 118.3015297133324,33.9018482910067,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>科旭机械</name>
+		<visibility>0</visibility>
+		<description>科旭机械 11.1亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3012931211048,33.90227150006207,0 118.3007938583807,33.90300353933335,0 118.3000328011694,33.90267222708902,0 118.3004846776062,33.90193585445945,0 118.3012931211048,33.90227150006207,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>正和木业</name>
+		<visibility>0</visibility>
+		<description>正和木业 12.4亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3008072983962,33.90300189163352,0 118.300257931599,33.90382691438234,0 118.2995215687851,33.90348992442601,0 118.3000219768293,33.90266291619498,0 118.3008072983962,33.90300189163352,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>鼎盛面粉</name>
+		<visibility>0</visibility>
+		<description>鼎盛面粉 11亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3000231911784,33.90265903152923,0 118.2995353112089,33.90346712847617,0 118.2988580913472,33.90317925652371,0 118.2993437827292,33.9024120792518,0 118.3000231911784,33.90265903152923,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>伍佰利民医药D</name>
+		<visibility>0</visibility>
+		<description>伍佰利医药D 约3.9亩</description>
+		<styleUrl>#msn_ylw-pushpin20</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3037856102651,33.90021304499211,0 118.3036299267495,33.90047836084276,0 118.3028954365122,33.90014680294567,0 118.3030485892576,33.89988713158417,0 118.3037856102651,33.90021304499211,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>医药公司</name>
+		<visibility>0</visibility>
+		<description>医药公司 16亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3044832102657,33.89913069265113,0 118.3037871055499,33.90021755145092,0 118.3030524389607,33.89988920156452,0 118.3037389597634,33.89879942272378,0 118.3044832102657,33.89913069265113,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>文峰教学用品</name>
+		<visibility>0</visibility>
+		<description>文峰教学用品 约24亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3052965106373,33.8994727695617,0 118.3046576434341,33.90092950137592,0 118.3036131994204,33.9004899631643,0 118.3044807538924,33.89912703163636,0 118.3052965106373,33.8994727695617,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>骏兴制衣</name>
+		<visibility>0</visibility>
+		<description>骏兴制衣 约50亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3046600225742,33.90094197747166,0 118.3040698586667,33.90235819361088,0 118.3020230744395,33.90146044118266,0 118.3028825603281,33.9001482230223,0 118.3046600225742,33.90094197747166,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>丰城金属</name>
+		<visibility>0</visibility>
+		<description>丰城金属 10亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3030816855316,33.9019269164761,0 118.3027877513365,33.90240479941448,0 118.3017373095415,33.90196142715356,0 118.302024329061,33.90146000857567,0 118.3030816855316,33.9019269164761,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>宏宝塑业</name>
+		<visibility>0</visibility>
+		<description>宏宝塑业 10.1亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3027881948796,33.90239971786247,0 118.3024706171573,33.9029098387207,0 118.3014460506264,33.90245121298231,0 118.3017388468049,33.90195924130111,0 118.3027881948796,33.90239971786247,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>博大节能建材</name>
+		<visibility>0</visibility>
+		<description>博大节能建材 10.1亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3024735809447,33.90290839540708,0 118.302159163468,33.90339357186066,0 118.3011409890774,33.90296380375094,0 118.3014497198072,33.90245114805792,0 118.3024735809447,33.90290839540708,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>恒生塑业</name>
+		<visibility>0</visibility>
+		<description>恒生塑业 19.9亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3021659247361,33.90339302194668,0 118.3015255261319,33.90437197226873,0 118.3005194620052,33.90394308476576,0 118.3011423690983,33.90296423313502,0 118.3021659247361,33.90339302194668,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>嘉纳科技</name>
+		<visibility>0</visibility>
+		<description>嘉纳科技 54.7亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3040722618951,33.90235769903298,0 118.3027898059361,33.90491671325971,0 118.3015292725875,33.90437394076911,0 118.303086283975,33.90192471390187,0 118.3040722618951,33.90235769903298,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>维力服饰</name>
+		<visibility>0</visibility>
+		<description>维力服饰 约38.2亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2949541111239,33.90172799559127,0 118.2943135299065,33.90280296326198,0 118.2923771036244,33.90199225449155,0 118.2932862643125,33.90100139645472,0 118.2949541111239,33.90172799559127,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>大北农饲料</name>
+		<visibility>0</visibility>
+		<description>大北农饲料 约43.3亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2943135299065,33.90280296326198,0 118.2937247017974,33.90369880048408,0 118.2913687959998,33.90301618967356,0 118.292175587936,33.90190095553527,0 118.2943135299065,33.90280296326198,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>箭鹿制衣</name>
+		<visibility>0</visibility>
+		<description>箭鹿制衣 51.6亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2937345591586,33.90371152667821,0 118.2935258412532,33.90415972283569,0 118.293512540938,33.90484183137323,0 118.2933823195485,33.90614890382246,0 118.2919308881965,33.90575286253323,0 118.2926021273725,33.90336596435714,0 118.2937345591586,33.90371152667821,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>金马机床</name>
+		<visibility>0</visibility>
+		<description>金马机床 56.4亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2925799508285,33.90337055707089,0 118.2919346836881,33.90574700908998,0 118.290379759254,33.90532783399875,0 118.291261134512,33.90299543325093,0 118.2925799508285,33.90337055707089,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>公路管理处</name>
+		<description>公路管理处</description>
+		<styleUrl>#msn_ylw-pushpin000</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2903718365267,33.90533990157397,0 118.2880829637061,33.90468426866693,0 118.2895697705915,33.9023706835177,0 118.2912457639031,33.90298783265095,0 118.2903718365267,33.90533990157397,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>承品导入线</name>
+		<visibility>0</visibility>
+		<description>承品导入线 10.3亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2944524908303,33.90544704198778,0 118.2942528387837,33.90634114271217,0 118.2936325284135,33.90625236216758,0 118.2937238256364,33.90527649603783,0 118.2944524908303,33.90544704198778,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>美达工贸</name>
+		<visibility>0</visibility>
+		<description>美达工贸 约9.9亩</description>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.294703386663,33.90478744719694,0 118.294546956037,33.90546111685261,0 118.2937228874605,33.9052758110185,0 118.2938130480122,33.90453363014728,0 118.294703386663,33.90478744719694,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>三耐钢管</name>
+		<visibility>0</visibility>
+		<description>三耐钢管 15.8亩</description>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2950707783753,33.90394496347243,0 118.2946939991667,33.90478683409781,0 118.2938046409638,33.9045297668719,0 118.2938224919509,33.90421898527797,0 118.2939376580235,33.90388718092771,0 118.2941559384938,33.90355038945895,0 118.2950707783753,33.90394496347243,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>康佳木业</name>
+		<visibility>0</visibility>
+		<description>康佳木业 约10.5亩</description>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2954667723347,33.90340368314946,0 118.2951043028267,33.90395241888864,0 118.2941639337424,33.9035449248061,0 118.2945259118208,33.90298555856947,0 118.2954667723347,33.90340368314946,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>裕源热水器</name>
+		<visibility>0</visibility>
+		<description>裕源热水器 约19.9亩</description>
+		<styleUrl>#msn_ylw-pushpin10</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2961373027298,33.90232619309646,0 118.2954574222975,33.90339511988383,0 118.2945259118208,33.90298555856947,0 118.2951983664149,33.90192104506767,0 118.2961373027298,33.90232619309646,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>四季华庭</name>
+		<visibility>0</visibility>
+		<description>四季华庭 160.75亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3036997264186,33.90561709151805,0 118.3026757690672,33.90754614653985,0 118.2983399593235,33.90617159682955,0 118.2995887195176,33.90379656170694,0 118.3036997264186,33.90561709151805,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>集中居住区</name>
+		<visibility>0</visibility>
+		<description>集中居住区 133.88亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.3026521987371,33.9076047126833,0 118.3014991596556,33.90934060586155,0 118.2968369416738,33.90778771218405,0 118.2971050744851,33.90655913119335,0 118.2973996846315,33.90598540861089,0 118.3026521987371,33.9076047126833,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>翠屏南苑</name>
+		<visibility>0</visibility>
+		<description>翠屏南苑 约84亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2994274373336,33.90871479333476,0 118.2982821822167,33.91081554892996,0 118.2966003723507,33.91052355701267,0 118.2968525302959,33.90787126059101,0 118.2994274373336,33.90871479333476,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>强鹰集团</name>
+		<visibility>0</visibility>
+		<description>强鹰集团 约69.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2962133622607,33.90719417051245,0 118.2961040836262,33.90862696017784,0 118.2935237566765,33.90853381211564,0 118.2936136730438,33.90652684673632,0 118.2962133622607,33.90719417051245,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>海力地板</name>
+		<visibility>0</visibility>
+		<description>海力地板 约55.6亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2960920285601,33.90863305734102,0 118.2960655223745,33.90877473327659,0 118.2959592537999,33.90878501812688,0 118.2958546907242,33.90947683692152,0 118.2959859810908,33.90947069041371,0 118.2959391995967,33.90998989182443,0 118.2934298721829,33.90979664871092,0 118.2935358468804,33.90854705073846,0 118.2960920285601,33.90863305734102,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>宏瑞纺织</name>
+		<visibility>0</visibility>
+		<description>宏瑞纺织 约20亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2946915658603,33.90989244204373,0 118.2945588224566,33.91083204909395,0 118.2933164249877,33.91072362076648,0 118.2934006599248,33.90979728089675,0 118.2946915658603,33.90989244204373,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>海翔工贸</name>
+		<visibility>0</visibility>
+		<description>海翔工贸 10.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2953642170673,33.90995015090278,0 118.2952643789154,33.91090618974398,0 118.2945525574316,33.91084160240921,0 118.2946950410821,33.90990040508856,0 118.2953642170673,33.90995015090278,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>通远工贸</name>
+		<visibility>0</visibility>
+		<description>通远工贸 10.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2960647453581,33.90999774713461,0 118.2959726383448,33.91091732270204,0 118.2952762860234,33.91089943102651,0 118.2953734976553,33.90994837933928,0 118.2960647453581,33.90999774713461,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>仁泰纸业</name>
+		<visibility>0</visibility>
+		<description>仁泰纸业 约16.6亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2932597260748,33.90768208358259,0 118.2932000216197,33.90844138574518,0 118.2917796334256,33.90830747771241,0 118.2918698300213,33.90754795058502,0 118.2932597260748,33.90768208358259,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新星钢球厂</name>
+		<visibility>0</visibility>
+		<description>新星钢球厂 约10.7亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2933001681442,33.90718428448458,0 118.2932623632512,33.90767960993675,0 118.291860819324,33.90754986001423,0 118.2919043170404,33.90706232421788,0 118.2933001681442,33.90718428448458,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>通用机械</name>
+		<visibility>0</visibility>
+		<description>通用机械 约19.9亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2933306181642,33.9064061195277,0 118.2932924247734,33.90718325622741,0 118.2918965108128,33.9070661330872,0 118.2920444851495,33.90599935346801,0 118.2933306181642,33.9064061195277,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>恒丰模具</name>
+		<visibility>0</visibility>
+		<description>恒丰模具 约15.5亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2918596738243,33.90759901075757,0 118.2917823382555,33.90830240123022,0 118.2903568487383,33.90818201348507,0 118.2904408987285,33.90745407036454,0 118.2918596738243,33.90759901075757,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>沃绿宝农业</name>
+		<visibility>0</visibility>
+		<description>沃绿宝农业 约37.3亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2906869630475,33.905590499571,0 118.2920382307055,33.90599069871208,0 118.2918539099768,33.90760003612355,0 118.2904549930552,33.907451896411,0 118.2906201555749,33.90562720055667,0 118.2906869630475,33.905590499571,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>泉润商贸</name>
+		<visibility>0</visibility>
+		<description>泉润商贸 10亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.293055352797,33.90978366407316,0 118.292963075495,33.91069846762589,0 118.2922812433556,33.91065465725682,0 118.2923788761693,33.90973257770853,0 118.293055352797,33.90978366407316,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>昌龙纺织</name>
+		<visibility>0</visibility>
+		<description>昌龙纺织 10亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2923788761693,33.90973257770853,0 118.2922812433556,33.91065465725682,0 118.2915973726903,33.91058933006053,0 118.2916636446992,33.9096776233056,0 118.2923788761693,33.90973257770853,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>润泰门窗</name>
+		<visibility>0</visibility>
+		<description>润泰门窗 约10亩 华耐塑胶</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2916636446992,33.9096776233056,0 118.2915918485354,33.91059057306627,0 118.29084979252,33.91050343605812,0 118.2909529755886,33.90960679651155,0 118.2916636446992,33.9096776233056,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>恒新装饰</name>
+		<visibility>0</visibility>
+		<description>恒新装饰 约10亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2909529755886,33.90960679651155,0 118.2908435327921,33.9105047111334,0 118.2901410124402,33.91045354752385,0 118.2902143761537,33.90953226236789,0 118.2909529755886,33.90960679651155,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>社会福利厂</name>
+		<visibility>0</visibility>
+		<description>社会福利厂 约15.3亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2930836531093,33.90906440769738,0 118.2930563139712,33.90978494612325,0 118.2916390000806,33.90967416972907,0 118.2917145827117,33.90894509121904,0 118.2930836531093,33.90906440769738,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新东方包装</name>
+		<visibility>0</visibility>
+		<description>新东方包装 约14.5亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2931803267749,33.90844264277948,0 118.2930878318748,33.90906168824934,0 118.2917287096431,33.90894326208355,0 118.2917830389033,33.90830696956814,0 118.2931803267749,33.90844264277948,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>南海不锈钢</name>
+		<visibility>0</visibility>
+		<description>南海不锈钢 约14.9亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2917125625515,33.90900270636663,0 118.2916415538945,33.90967777551984,0 118.2902161031598,33.90953051882941,0 118.2902964845519,33.90886082582542,0 118.2917125625515,33.90900270636663,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>海洋印务</name>
+		<visibility>0</visibility>
+		<description>海洋印务 约14.9亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2917864628212,33.90830330137246,0 118.2917076444187,33.90899981013497,0 118.2902964845519,33.90886082582542,0 118.2903500841119,33.90818613981026,0 118.2917864628212,33.90830330137246,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>固丰管桩</name>
+		<visibility>0</visibility>
+		<description>固丰管桩 约90.7亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2903608673193,33.90545488776084,0 118.2901182025312,33.90810798521594,0 118.2879721847861,33.90795678431196,0 118.2884225354168,33.90635103562057,0 118.2893191281242,33.90515722659604,0 118.2903608673193,33.90545488776084,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>明珠新城</name>
+		<visibility>0</visibility>
+		<description>明珠新城 约85.6亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2989952763222,33.91382244181008,0 118.2984958540976,33.91594458244916,0 118.295980113295,33.91571653891872,0 118.296213022007,33.91333350376171,0 118.2989952763222,33.91382244181008,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>康迪健身器材</name>
+		<visibility>0</visibility>
+		<description>康迪健身器材 约11亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2943943961487,33.91510198267118,0 118.2943461032318,33.9155533715288,0 118.2928543154237,33.91544136457807,0 118.2928746961684,33.91495234131043,0 118.2943943961487,33.91510198267118,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>神龙酿酒</name>
+		<visibility>0</visibility>
+		<description>神龙酿酒 约16.9亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2939409348001,33.91420943551135,0 118.29390524402,33.91472394107878,0 118.2940915023848,33.91474530075055,0 118.2940495926907,33.91506429028368,0 118.2928694449473,33.91495326597552,0 118.2929508300635,33.91413175023129,0 118.2939409348001,33.91420943551135,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>无名</name>
+		<visibility>0</visibility>
+		<description>无名 约10亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2939940620914,33.91104515046325,0 118.2938967726743,33.91191952864612,0 118.2931780053149,33.91188945599325,0 118.2932637996236,33.91097494345858,0 118.2939940620914,33.91104515046325,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>国华织布</name>
+		<visibility>0</visibility>
+		<description>国华织布 约11.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2947881647826,33.91111243442644,0 118.29471717776,33.9119765286347,0 118.2938967726743,33.91191952864612,0 118.2940030920961,33.91104430663754,0 118.2947881647826,33.91111243442644,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>银龙电能</name>
+		<visibility>0</visibility>
+		<description>银龙电能 约9.3亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2954869160396,33.91116560040766,0 118.295422100123,33.91200800569492,0 118.294714453194,33.91196932086425,0 118.2947826079084,33.9111089658262,0 118.2954869160396,33.91116560040766,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>凯利斯木业</name>
+		<visibility>0</visibility>
+		<description>凯利斯木业 约7.5亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2960610724569,33.91122199983858,0 118.2959858583637,33.91203904325215,0 118.2954247302129,33.91200402383898,0 118.2954946337593,33.9111647644586,0 118.2960610724569,33.91122199983858,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>同济电器</name>
+		<visibility>0</visibility>
+		<description>同济电器 11.8亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2954822775302,33.91201020950605,0 118.2954415369658,33.91241144390637,0 118.2953894214294,33.91242033741416,0 118.2953511253014,33.91304232040505,0 118.2944932181491,33.91299147028622,0 118.2945223813053,33.9119660580737,0 118.2954822775302,33.91201020950605,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>方皓塑涂</name>
+		<visibility>0</visibility>
+		<description>方皓塑涂 18.8亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2945306849456,33.91196488386665,0 118.2945013505043,33.91300065795355,0 118.2930603602826,33.91292486609238,0 118.293175070133,33.91189399194509,0 118.2945306849456,33.91196488386665,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>润强管业</name>
+		<visibility>0</visibility>
+		<description>润强管业 约7.3亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2959885048362,33.91203156718059,0 118.2959164042806,33.91310704848455,0 118.2953930362886,33.91305309608235,0 118.2954797254023,33.91201574022609,0 118.2959885048362,33.91203156718059,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>东润服装</name>
+		<visibility>0</visibility>
+		<description>东润服装 61.1亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2929795571136,33.91099136192224,0 118.2927905619346,33.91286414730735,0 118.2908135403261,33.91275421256098,0 118.2909925366191,33.91077061259103,0 118.2929795571136,33.91099136192224,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新华印刷</name>
+		<visibility>0</visibility>
+		<description>新华印刷 约10.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2908820901961,33.91194100428825,0 118.2908045542601,33.91275560987019,0 118.2899738705701,33.91269929211853,0 118.2900438278457,33.91189601151199,0 118.2908820901961,33.91194100428825,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>阳科农业</name>
+		<visibility>0</visibility>
+		<description>阳科农业 约14.9亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2909955605983,33.91076593925087,0 118.2908943922956,33.91194777017067,0 118.2900340319336,33.91189720041024,0 118.2901406474405,33.91069110093318,0 118.2909955605983,33.91076593925087,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>锦绣塑业</name>
+		<visibility>0</visibility>
+		<description>锦绣塑业 约20亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2926322383286,33.91317880572912,0 118.2925349538568,33.91419562895943,0 118.2920142924988,33.91416696594619,0 118.2920025153055,33.91421945642355,0 118.2913591413493,33.91417519521733,0 118.2914537192368,33.91309732539317,0 118.2926322383286,33.91317880572912,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>汇丰电子</name>
+		<visibility>0</visibility>
+		<description>汇丰电子 约10.8亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2914565967001,33.91310575126788,0 118.2913679416528,33.91418666081503,0 118.2907180875615,33.91416506783216,0 118.2908246815839,33.91307475698721,0 118.2914565967001,33.91310575126788,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>联旺服饰</name>
+		<visibility>0</visibility>
+		<description>联旺服饰 约7亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2908215728421,33.91307936836168,0 118.2907632708956,33.91362486330704,0 118.2898676843167,33.91355549266594,0 118.2899201266875,33.91299923567998,0 118.2908215728421,33.91307936836168,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>新盛影钢板</name>
+		<visibility>0</visibility>
+		<description>新盛影钢板 约7.4亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2907602688611,33.91362950226812,0 118.2907243484517,33.91416866418855,0 118.2898280106079,33.91411673653617,0 118.2898577365031,33.91355644669482,0 118.2907602688611,33.91362950226812,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>龙熙钢结构</name>
+		<visibility>0</visibility>
+		<description>龙熙钢结构 约8亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2903909582896,33.91415011880136,0 118.2902512847597,33.91517698280902,0 118.2897394355125,33.91514108247133,0 118.2898280106079,33.91411673653617,0 118.2903909582896,33.91415011880136,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>三嘉食品</name>
+		<visibility>0</visibility>
+		<description>三嘉食品 约11.2亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2910747131991,33.91418489308558,0 118.2908875230453,33.91522355507074,0 118.2902449671896,33.91517390136316,0 118.2903880384045,33.91415484106901,0 118.2910747131991,33.91418489308558,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>美众电子</name>
+		<visibility>0</visibility>
+		<description>美众电子 约12.4亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2918389443548,33.91421325560278,0 118.2916473059575,33.91527591728391,0 118.2908932190505,33.91521484481439,0 118.2910864525235,33.91417937970882,0 118.2918389443548,33.91421325560278,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>宏博节能</name>
+		<visibility>0</visibility>
+		<description>宏博节能 约12.8亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2920188065964,33.91421779071676,0 118.2920170816445,33.91416273646274,0 118.2925322548857,33.91419973138888,0 118.2924029891643,33.91536206811503,0 118.291644605167,33.91528011088633,0 118.2918334674583,33.9142098429481,0 118.2920188065964,33.91421779071676,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>恒瑞刺绣厂</name>
+		<visibility>0</visibility>
+		<description>恒瑞刺绣厂 10.7亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2874557063149,33.91452880438917,0 118.2874683865545,33.91498173642216,0 118.286020533065,33.9148228032886,0 118.2859882097724,33.91438738986384,0 118.2874557063149,33.91452880438917,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>湘衡装饰</name>
+		<visibility>0</visibility>
+		<description>湘衡装饰 10.3亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2874421922699,33.91399059265849,0 118.2874321102101,33.91447384981235,0 118.2859778940747,33.91434330101063,0 118.2860448406355,33.91388087130142,0 118.2874421922699,33.91399059265849,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>维益食品</name>
+		<visibility>0</visibility>
+		<description>维益食品 27.8亩</description>
+		<styleUrl>#msn_ylw-pushpin4</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2873828116166,33.9127493550461,0 118.2874099596672,33.91398698121535,0 118.2859669568711,33.91387754622883,0 118.2859432194878,33.91265913010977,0 118.2873828116166,33.9127493550461,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>水韵家园一期</name>
+		<visibility>0</visibility>
+		<description>水韵家园一期 20.22亩</description>
+		<styleUrl>#msn_ylw-pushpin40</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2872202462437,33.91048267363864,0 118.2872378828079,33.91111845812677,0 118.2850035109383,33.91096941978822,0 118.2851124362263,33.9103456441638,0 118.2872202462437,33.91048267363864,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>水韵家园</name>
+		<visibility>0</visibility>
+		<description>水韵家园 国有建设用地53.7亩</description>
+		<styleUrl>#msn_ylw-pushpin3</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.287351664578,33.91112696754242,0 118.2874000024129,33.91275107985386,0 118.2846926930983,33.91258246318161,0 118.2849963970506,33.91096845855306,0 118.287351664578,33.91112696754242,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>无名地块</name>
+		<visibility>0</visibility>
+		<description>无名地块 77.56亩</description>
+		<styleUrl>#msn_ylw-pushpin60</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2899397631819,33.91068346405651,0 118.289735070916,33.91280231810578,0 118.2874900402493,33.91272042341581,0 118.2873990449134,33.91049143512188,0 118.2899397631819,33.91068346405651,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块一</name>
+		<visibility>0</visibility>
+		<description>地块一 60.18亩</description>
+		<styleUrl>#msn_ylw-pushpin50</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2873459868315,33.91113127876356,0 118.287396687866,33.91276440668268,0 118.2836855109829,33.91252008937949,0 118.2837377965719,33.91088348934499,0 118.2873459868315,33.91113127876356,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>地块二</name>
+		<visibility>0</visibility>
+		<description>地块二 80.25亩</description>
+		<styleUrl>#msn_ylw-pushpin50</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2865044744591,33.91277119198001,0 118.2873390751845,33.91478199154212,0 118.2836129052339,33.91454931294119,0 118.2836640325988,33.91258697538333,0 118.2865044744591,33.91277119198001,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>无名地块</name>
+		<visibility>0</visibility>
+		<description>无名地块 14.9亩</description>
+		<styleUrl>#msn_ylw-pushpin50</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2994343523982,33.91389606951022,0 118.2989925000859,33.91598552640254,0 118.2984994441306,33.91594337512949,0 118.2989936125506,33.91382229510116,0 118.2994343523982,33.91389606951022,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>力达托盘</name>
+		<visibility>0</visibility>
+		<description>力达托盘约49亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2927734213912,33.91568833348518,0 118.2928778034203,33.91561105219022,0 118.2950315377229,33.91582255026881,0 118.2949635754317,33.91723103810001,0 118.2926648162541,33.91703462588703,0 118.2927734213912,33.91568833348518,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>龙马制衣</name>
+		<visibility>0</visibility>
+		<description>龙马制衣约25.2亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2950626715602,33.91583143796868,0 118.2959535198558,33.91591984528961,0 118.2957819152613,33.91752561283611,0 118.2949765062981,33.91744428080109,0 118.2950626715602,33.91583143796868,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>泰丰纺织</name>
+		<visibility>0</visibility>
+		<description>泰丰纺织56.7亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2926847575189,33.91707709384166,0 118.2949379830188,33.91727529386512,0 118.294925940103,33.91750704401747,0 118.2953112433837,33.91754294340874,0 118.2951572402267,33.9186450316822,0 118.2925718987993,33.91841088658546,0 118.2926847575189,33.91707709384166,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>豫德嘉园</name>
+		<visibility>0</visibility>
+		<description>豫德嘉园50亩</description>
+		<styleUrl>#msn_ylw-pushpin5</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						118.2953862834819,33.91753201132178,0 118.2964059293668,33.91759077302446,0 118.2964525060406,33.91720279179983,0 118.2976398359531,33.91730674517703,0 118.297306626703,33.91887738786098,0 118.2952258513311,33.91870006146625,0 118.2953862834819,33.91753201132178,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

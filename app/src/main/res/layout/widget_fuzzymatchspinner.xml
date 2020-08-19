@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/topBarText"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:background="@drawable/textview_border"
+        android:id="@+id/tvcheckvalue_fuzzymatchspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/down"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/common_title_down_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

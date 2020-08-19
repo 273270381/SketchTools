@@ -1,0 +1,119 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyDialogActivityTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowContentOverlay">@null</item><!-- 是否有覆盖 -->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="AppWidget.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_menu_more</item>
+    </style>
+
+    <style name="TextView_Table_Rightitem">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/topBarText</item>
+    </style>
+    <style name="TextView_Table_Right">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/topBarText</item>
+    </style>
+    <style name="LoadingTextView">
+        <item name="textStyle">vertical</item>
+        <item name="textColor">@color/gray_text</item>
+        <item name="textSize">12sp</item>
+        <item name="textPadding">5dp</item>
+        <item name="android:text">@string/loading_text_default</item>
+    </style>
+    <style name="LoadingTextView_Percent" parent="LoadingTextView">
+        <item name="textPadding">10dp</item>
+        <item name="textSize">15sp</item>
+        <item name="android:text"/>
+    </style>
+    <style name="TitleBar_Light">
+        <item name="textColor">@color/common_text</item>
+        <item name="background">@drawable/common_title</item>
+        <item name="backButton">@drawable/common_title_back_selector</item>
+    </style>
+    <style name="TitleBar_Light_Web" parent="TitleBar_Light">
+        <item name="backButton">@drawable/common_title_cancel_selector</item>
+    </style>
+    <style name="TitleBar_Dark">
+        <item name="textColor">@android:color/white</item>
+        <item name="background">@color/dark_bg_70p</item>
+        <item name="backButton">@drawable/message_back_selector</item>
+    </style>
+    <style name="CommonListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">#0000</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:listSelector">#0000</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+    <style name="popwindowUpAnim">
+        <item name="android:windowEnterAnimation">@anim/fade_up</item>
+        <item name="android:windowExitAnimation">@anim/fade_down</item>
+    </style>
+    <style name="auto_wifi_status_style_normal">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/common_sub_text</item>
+        <item name="android:textSize">@dimen/loading_text_size</item>
+    </style>
+    <style name="CommonGroupLayout">
+        <item name="dividerHeight">0.5dp</item>
+        <item name="dividerColor">@color/yahei</item>
+        <item name="itemSelector">@drawable/grouplayout_item_bg_selector</item>
+        <item name="dividerPadding">@dimen/device_set_padding</item>
+        <item name="android:background">@color/blue_bg</item>
+    </style>
+    <style name="BaseTheme" parent="Base.App.Theme.Light">
+        <item name="colorPrimary">@color/main_green</item>
+        <item name="colorPrimaryDark">@color/main_green</item>
+        <item name="colorAccent">@color/main_green</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!--指定activity动画-->
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>

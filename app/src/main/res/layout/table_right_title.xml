@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@+id/merge_sales"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView android:id="@+id/tv_table_title_7"
+        style="@style/TextView_Table_Right"
+        android:layout_width="180dp"
+        android:text="时间"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_0"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="水温(℃)"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_1"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="Ph"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_2"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="溶解氧(mg/L)"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_3"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="氨氮(mg/L)"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_4"
+        style="@style/TextView_Table_Right"
+        android:layout_width="180dp"
+        android:text="高锰酸盐指数(mg/L)"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_5"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="总磷(mg/L)"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_text"/>
+    <TextView android:id="@+id/tv_table_title_6"
+        style="@style/TextView_Table_Right"
+        android:layout_width="140dp"
+        android:text="氧化还原电位(mV)"/>
+</merge>

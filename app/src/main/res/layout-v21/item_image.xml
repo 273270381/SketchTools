@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="2dp"
+    android:layout_height="100dp">
+    <ezviz.ezopensdk.view.MyImageView
+        android:scaleType="fitXY"
+        android:id="@+id/image"
+        android:visibility="visible"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/VideoFlag"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:background="@drawable/icn_play_video"
+        android:layout_centerInParent="true"
+        />
+    <CheckBox
+        android:id="@+id/cb_item"
+        android:visibility="gone"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/check_box"
+        android:button="@null"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+</RelativeLayout>

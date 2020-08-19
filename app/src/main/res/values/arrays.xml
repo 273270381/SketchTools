@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题栏 -->
+    <string-array name="map_title">
+        <item>"实景地图西区"</item>
+        <item>"实景地图南区"</item>
+        <item>"百度卫星地图"</item>
+        <item>"百度标准地图"</item>
+    </string-array>
+
+
+    <!-- home 界面九宫格 -->
+    <string-array name="home_grid_text">
+        <item>"实景地图"</item>
+    </string-array>
+    <string-array name="home_grid_icons">
+        <!--<item>@mipmap/main_title_battery_n</item>-->
+        <item></item>
+    </string-array>
+
+    <!--用户类型-->
+    <string-array name="usertype">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+    <string-array name="time_title">
+        <item>"全部"</item>
+        <item>"2019-08"</item>
+        <item>"2019-09"</item>
+        <item>"2019-10"</item>
+    </string-array>
+    <string-array name="location_title">
+        <item>"全部"</item>
+        <item>"西区"</item>
+        <item>"南区"</item>
+    </string-array>
+</resources>

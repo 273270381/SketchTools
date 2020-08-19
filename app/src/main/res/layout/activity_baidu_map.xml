@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+<!--    android:background="@color/secondLevelBackground">-->
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.baidu.mapapi.map.MapView>
+
+    <ImageButton
+        android:id="@+id/change_ibtn"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/imagebutton_change_selector"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/info_ibtn"
+        android:layout_below="@+id/change_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/xinxi_sel"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <ImageButton
+        android:id="@+id/robot_ibtn"
+        android:layout_below="@+id/info_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/jiqiren_sel"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/measure_ibtn"
+        android:visibility="visible"
+        android:layout_below="@+id/robot_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/liangsuan"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/measure_ibtn_sel"
+        android:layout_below="@+id/robot_ibtn"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/liangsuan_sel"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/zoom_in_ibtn"
+        android:layout_below="@+id/robot_ibtn"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/imagebutton_zoomin_selector"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/zoom_out_ibtn"
+        android:layout_below="@+id/zoom_in_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/imagebutton_zoomout_selector"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/position_ibtn"
+        android:visibility="visible"
+        android:layout_below="@+id/zoom_out_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/dingwei"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/position_ibtn_sel"
+        android:visibility="gone"
+        android:layout_below="@+id/zoom_out_ibtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/dingwei_sel"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_below="@+id/head"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#60000000"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>

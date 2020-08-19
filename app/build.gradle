@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "ezviz.ezopensdk"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 19
+        versionName "1.7.3"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "d7dcbc60f6f4da800a89ead8", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+        //启用renderscript
+        multiDexEnabled true
+        renderscriptTargetApi = 18
+        renderscriptSupportModeEnabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'me.imid.swipebacklayout.lib:library:1.1.0'
+    implementation 'com.jakewharton:butterknife:9.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation files('libs/BaiduLBS_Android.jar')
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'de.hdodenhof:circleimageview:2.0.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.ezviz.sdk:ezviz-sdk:4.12.0'
+    implementation 'com.ezviz.sdk:streamctrl:1.0.0'
+    implementation 'com.bigkoo:convenientbanner:2.0.5'
+    implementation files('libs/commons-net-3.6.jar')
+    implementation 'pub.devrel:easypermissions:2.0.1'
+    implementation files('libs/jcore-android-2.4.0.jar')
+    implementation(name: 'arcgis-android-v10.2.9', ext: 'aar')
+    implementation files('libs/dom4j-1.6.1.jar')
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+    implementation 'com.github.lzyzsd:circleprogress:1.2.1'
+    implementation files('libs/jtds-1.2.7.jar')
+    implementation files('libs/commons-net-3.6.jar')
+}
