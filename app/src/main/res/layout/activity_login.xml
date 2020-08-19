@@ -75,7 +75,7 @@
                 android:layout_marginLeft="14dp"
                 android:layout_marginRight="14dp"
                 android:contentDescription="@null"
-                app:srcCompat="@mipmap/ic_singup_mobile1" />
+                app:srcCompat="@mipmap/ic_singup_mobile" />
 
             <View
                 android:layout_width="1px"
