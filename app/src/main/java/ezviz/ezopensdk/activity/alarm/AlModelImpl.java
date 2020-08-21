@@ -157,7 +157,12 @@ public class AlModelImpl implements IAlModel {
                     }
                 }catch (Exception e){
                     e.printStackTrace();
-                    callBack.onFailure("error");
+                    AppOperator.runOnMainThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            callBack.onFailure("error");
+                        }
+                    });
                 }
             }
         }, map);

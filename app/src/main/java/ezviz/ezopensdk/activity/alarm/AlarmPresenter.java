@@ -23,7 +23,9 @@ public class AlarmPresenter extends BasePresenter<AlView> {
             return;
         }
         if (page == 1 && getView() != null){
-            getView().showLoading();
+            if (getView() != null){
+                getView().showLoading();
+            }
         }
         model.queryData(page_size, userId, type, page, new AlCallBack() {
 

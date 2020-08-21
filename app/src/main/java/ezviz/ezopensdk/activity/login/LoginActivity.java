@@ -1,5 +1,6 @@
 package ezviz.ezopensdk.activity.login;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.text.Editable;
@@ -7,6 +8,7 @@ import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -196,12 +198,15 @@ public class LoginActivity extends BaseActivity implements LoginView, View.OnCli
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn_login:
-                if (v.getId() == R.id.btn_login){
-                    strUsername = etUsername.getText().toString().trim();
-                    strPassword = etPassword.getText().toString().trim();
-                    String url = AlarmContant.service_url+"api/login";
-                    loginPresenter.LogIn(this, strUsername, strPassword, url);
+                View view = this.getCurrentFocus();
+                if (view != null) {
+                    InputMethodManager inputMethodManager = (InputMethodManager) this.getSystemService(Activity.INPUT_METHOD_SERVICE);
+                    inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
                 }
+                strUsername = etUsername.getText().toString().trim();
+                strPassword = etPassword.getText().toString().trim();
+                String url = AlarmContant.service_url+"api/login";
+                loginPresenter.LogIn(this, strUsername, strPassword, url);
                 break;
             case R.id.iv_login_username_del:
                 etUsername.setText(null);

@@ -98,10 +98,11 @@ public class AlarmActivity extends BaseActivity implements AlView{
         alarm_type = getIntent().getIntExtra("type", 0);
         String str = getIntent().getStringExtra("title");
         cameraInfoList = getIntent().getParcelableArrayListExtra("camerainfo_list");
-        title_text.setText(str);
+        if (str != null){
+            title_text.setText(str);
+        }
         alarmPresenter.queryData(page_size, userid, alarm_type, 1);
         page++;
-        DBManager.getInstance().create(AlarmReaded.class);
         alarmPresenter.queryReadId();
         LinearLayoutManager layoutManager = new WarnLinearLayoutManager(getApplicationContext());
         rv.setLayoutManager(layoutManager);
